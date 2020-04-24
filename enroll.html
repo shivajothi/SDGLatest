@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<script>
+    var page = 'enroll';
+</script>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="./img/sdg-wheel.png" />#SDG17</a>
+        <nav class="main-nav">
+          <a href="learn.html">Learn</a>
+          <a href="quiz.html">Quiz</a>
+        </nav>
+      </header>
+    <section class="container" >
+        <div class="toast">
+            <div id="eventDetails">
+
+            </div>
+            <div id="status">
+                <p>Thanks for your partnership! You we will be recieving an email shorter!</p>
+                <a href="index.html">Go to Home</a>
+            </div>
+        </div>
+       
+        <div id="contactForm">
+            
+        <form id="enroll" name="enrollForm" method="POST">
+                <p>
+                  <label>Title</label><br>
+                  <label>
+                    <input type="radio" name="title" value="mr">
+                    Mr
+                  </label>
+                  <label>
+                    <input type="radio" name="title" value="mrs">
+                    Mrs
+                  </label>
+                  <label>
+                    <input type="radio" name="title" value="miss">
+                    Miss
+                  </label>
+                </p>
+                <p>
+                  <label>First name</label><br>
+                  <input type="text" name="first_name">
+                </p>
+                <p>
+                  <label>Last name</label><br>
+                  <input type="text" name="last_name">
+                </p>
+                <p>
+                  <label>Email</label><br>
+                  <input type="email" name="email" required>
+                </p>
+                <p>
+                  <label>Phone number</label><br>
+                  <input type="tel" name="phone">
+                </p>
+                <p>
+                  <label>Country</label><br>
+                  <select>
+                    <option>China</option>
+                    <option>India</option>
+                    <option>United States</option>
+                    <option>Indonesia</option>
+                    <option>Brazil</option>
+                  </select>
+                </p>
+                <p>
+                  <label class="terms">
+                    <input type="checkbox" value="terms">
+                    I agree to the <a href="/terms" class="link">terms and conditions</a>
+                  </label>
+                </p>
+                <p>
+                  <button id="signUp">Sign up</button>
+                  <button type="reset">Reset form</button>
+                </p>
+
+        </form>
+            
+    </div>
+
+    </section>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

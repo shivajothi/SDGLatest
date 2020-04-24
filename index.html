@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  </head>
+  <script>
+    var page = "home";
+  </script>
+  <body>
+    <header>
+        <a href="index.html" class="logo"><img src="./img/sdg-wheel.png" />#SDG17</a>
+        <nav class="main-nav">
+          <a href="learn.html">Learn</a>
+          <a href="quiz.html">Quiz</a>
+        </nav>
+      </header>
+    <section class="container" id="content">
+      <div class="content" id="home">
+        <div class="filters">
+          <div class="filter">
+            <label for="countryFilter">Select Country</label>
+            <select name="countryFilter" id="countryFilter">
+              <option value="IN">India</option>
+              <option value="AUS">Australia</option>
+              <option value="US">United States</option>
+              <option value="UK">United Kingdom</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid" id="events">
+          <div class="card" data-country="IN" data-title="education">
+            <div class="media">
+              <img alt="education" src="img/earth.png" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-15.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-17.png" />
+              </div>
+              <h2>
+                On Earth Day, harnessing the power of nature to heal herself
+              </h2>
+              <p>
+                How nations are protecting people from interconnected global
+                crises.
+              </p>
+            </div>
+            <div class="action">
+              <button class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+
+          <div class="card" data-country="US" data-title="sdg">
+            <div class="media">
+              <img alt="sdg" src="./img/beach.jpg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-03.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-08.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-17.png" />
+              </div>
+              <h2>The fast and the curious.</h2>
+              <p>
+                As a pandemic emerges, UNDP’s Accelerator Labs mark a year of
+                asking the right questions.
+              </p>
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+          <div class="card" data-country="US" data-title="environment">
+            <div class="media">
+              <img alt="environment" src="./img/digital.png" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-03.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-17.png" />
+              </div>
+              <h2>
+                Mounting a digital defence in the fight against coronavirus.
+              </h2>
+              <p>
+                A look at the way technology can meet the many challenges thrown
+                up by a global pandemic.
+              </p>
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+          <div class="card" data-country="AU" data-title="food">
+            <div class="media">
+              <img alt="food" src="./img/jamaica.jpg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-08.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-13.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-14.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-15.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-17.png" />
+              </div>
+              <h2>A bay in Jamaica comes back to life</h2>
+              <p>Rare sea turtles flourish as a community bands together.</p>
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+          <div class="card" data-country="AU" data-title="food">
+            <div class="media">
+              <img alt="food" src="./img/4.jpeg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-05.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-10.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-17.png" />
+              </div>
+              <h2>Bias and backlash.</h2>
+              <p>The invisible forces holding women back.</p>
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+          <div class="card" data-country="AU" data-title="food">
+            <div class="media">
+              <img alt="food" src="./img/women.jpeg" />
+            </div>
+            <div class="copy">
+              <div class="icons">
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-05.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-08.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-10.png" />
+                <img alt="sdg" src="./img/sdg/E-WEB-Goal-17.png" />
+              </div>
+              <h2>
+                Providing hope and support for Yemeni women as conflict drags
+                on.
+              </h2>
+              <p>
+                Women become equal partners in addressing urgent needs in their
+                communities.
+              </p>
+            </div>
+            <div class="action">
+              <button type="button" class="enroll-cta">Enroll</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
